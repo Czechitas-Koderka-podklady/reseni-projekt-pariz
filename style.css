@@ -1,0 +1,86 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+/*
+BARVY:
+#cdb4db - pozadí stránky
+#ffffff - white, pozadí středu s obsahem
+*/
+
+
+body {
+  font-family: "Source Sans 3", serif;
+  font-optical-sizing: auto;
+  font-size: 20px;
+  line-height: 1.4;
+  background: #cde4f9;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 48px;
+  color: #dc6aa1;
+}
+
+section {
+  max-width: 900px;
+  margin-block: 20px;
+  padding: 30px 50px;
+  margin-inline: auto;
+  border-radius: 12px;
+  background: white;
+}
+
+.img-right {
+  float: right;
+  margin: 0 0 20px 20px;
+  border-radius: 8px;
+}
+
+.img-left {
+  float: left;
+  margin: 0 20px 20px 0;
+  border-radius: 8px;
+}
+
+.img-full {
+  width: 100%;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.intro {
+  text-align: center;
+}
+
+.main-image {
+  display: block;
+  margin-inline: auto;
+  border-radius: 50%;
+}
+
+.meta {
+  color: #dc6aa1;
+}
+
+.perex {
+  font-size: 24px;
+  font-style: italic;
+  color: #808080;
+}
